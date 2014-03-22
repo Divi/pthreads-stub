@@ -19,6 +19,8 @@
         "php": ">=5.3"
     },
     "autoload": {
-        "files": [ "Cond.php", "Mutex.php", "Pool.php", "Thread.php", "Threaded.php", "Worker.php" ]
+        "psr-0": {
+            "": "src/"
+        }
     }
 }
