@@ -1,0 +1,24 @@
+{
+   "name": "divi/pthreads-stub",
+   "description": "Provide pthreads PHP extension stub",
+   "keywords": ["pthreads", "stub"],
+   "licence": "MIT",
+   "homepage": "https://github.com/Divi/pthreads-stub",
+   "authors": [
+       {
+       
+           "name": "Sylvain Lorinet",
+           "email": "sylvain.lorinet@gmail.com"
+       },
+       {
+           "name": "Lisachenko Alexander",
+           "email": "lisachenko.it@gmail.com"
+       }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "files": [ "Cond.php", "Mutex.php", "Pool.php", "Thread.php", "Threaded.php", "Worker.php" ]
+    }
+}
